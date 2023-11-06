@@ -18,6 +18,7 @@ namespace books.Controllers
 
 
         // GET: api/<BookController>
+        // Method to return all books list
         [HttpGet]
         public IActionResult GetAllBooks()
         {
@@ -25,6 +26,7 @@ namespace books.Controllers
         }
 
         // GET api/<BookController>/5
+        // Method to return single book details by id
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
@@ -38,6 +40,7 @@ namespace books.Controllers
         }
 
         // POST api/<BookController>
+        // Method to add new book
         [HttpPost]
         public IActionResult Post([FromBody] Book book)
         {
@@ -51,14 +54,10 @@ namespace books.Controllers
         }
 
         // PUT api/<BookController>/5
+        // Method to change details of single book
         [HttpPut("{id}")]
         public IActionResult Put(int id, [FromBody] Book book)
         {
-            if (id != book.Id)
-            {
-                return BadRequest("User is not exists in database");
-            }
-
             var foundBook = _bookRepository.GetBookById(id);
 
             if (foundBook == null)
@@ -76,6 +75,7 @@ namespace books.Controllers
         }
 
         // DELETE api/<BookController>/5
+        // Method to delete single book
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {

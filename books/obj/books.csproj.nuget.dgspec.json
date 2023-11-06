@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ibrohim/Desktop/west/Dscc/books/books/books.csproj": {}
+    "C:\\Users\\YusufDonut\\Desktop\\wiut\\DSCC.CW1.12460\\books\\books.csproj": {}
   },
   "projects": {
-    "/Users/ibrohim/Desktop/west/Dscc/books/books/books.csproj": {
+    "C:\\Users\\YusufDonut\\Desktop\\wiut\\DSCC.CW1.12460\\books\\books.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ibrohim/Desktop/west/Dscc/books/books/books.csproj",
+        "projectUniqueName": "C:\\Users\\YusufDonut\\Desktop\\wiut\\DSCC.CW1.12460\\books\\books.csproj",
         "projectName": "books",
-        "projectPath": "/Users/ibrohim/Desktop/west/Dscc/books/books/books.csproj",
-        "packagesPath": "/Users/ibrohim/.nuget/packages/",
-        "outputPath": "/Users/ibrohim/Desktop/west/Dscc/books/books/obj/",
+        "projectPath": "C:\\Users\\YusufDonut\\Desktop\\wiut\\DSCC.CW1.12460\\books\\books.csproj",
+        "packagesPath": "C:\\Users\\YusufDonut\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\YusufDonut\\Desktop\\wiut\\DSCC.CW1.12460\\books\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/ibrohim/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\YusufDonut\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,6 +47,12 @@
               "version": "[7.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.13, )"
             },
@@ -78,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.414/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
