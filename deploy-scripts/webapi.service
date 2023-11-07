@@ -9,10 +9,9 @@ Restart=always
 RestartSec=10
 KillSignal=SIGINT
 SyslogIdentifier=webapi
-Environment=ASPNETCORE_ENVIRONMENT=Production
+Environment=ASPNETCORE_ENVIRONMENT=Development
 Environment=DOTNET_PRINT_TELEMETRY_MESSAGE=false
-Environment=ASPNETCORE_URLS=http://+:80;https://+:443
-Environment=ASPNETCORE_HTTPS_PORTS=443
+Environment=ASPNETCORE_URLS=https://+:443;http://+:80
 
 [Install]
 WantedBy=multi-user.target
